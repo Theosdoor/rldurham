@@ -20,7 +20,6 @@ dependencies = [
     "pandas>=2.0.3",
     "requests>=2.32.4",
     "scipy>=1.10.1",
-    "swig>=4.0.0",
     "torch>=2.5.1",
 ]
 classifiers = [
