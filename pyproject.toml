@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rldurham"
+version = "0.1.1"
+description = "Python package for the Reinforcement Learning course at Durham University"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Robert Lieck", email = "robert.lieck@durham.ac.uk"}
+]
+dependencies = [
+    "gymnasium[atari,box2d,other]>=1.1.1",
+    "ipython>=8.12.3",
+    "ipywidgets>=8.1.8",
+    "lightning>=2.3.3",
+    "numpy>=1.24.4",
+    "pandas>=2.0.3",
+    "requests>=2.32.4",
+    "scipy>=1.10.1",
+    "swig>=4.4.1",
+    "torch>=2.5.1",
+]
+urls = {Homepage = "https://github.com/robert-lieck/rldurham"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+packages = ["rldurham"]
