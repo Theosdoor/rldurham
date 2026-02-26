@@ -20,15 +20,17 @@ dependencies = [
     "pandas>=2.0.3",
     "requests>=2.32.4",
     "scipy>=1.10.1",
-    "swig>=4.4.1",
+    "swig>=4.0.0",
     "torch>=2.5.1",
 ]
-urls = {Homepage = "https://github.com/robert-lieck/rldurham"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
+
+[project.urls]
+Homepage = "https://github.com/robert-lieck/rldurham"
 
 [tool.setuptools]
 packages = ["rldurham"]
